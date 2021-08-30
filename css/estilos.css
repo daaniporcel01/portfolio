@@ -1,0 +1,223 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+h1{
+    color: #E20000;
+    font-size: 36px;
+    }
+p {
+    color: black;
+    font-size:14px ;
+    font-weight: 500;
+    }
+input, textarea {
+    border-radius: 12px !important;
+    }
+#contacto h2{
+        font-size: 13px;
+        color: #6a6a6a;
+        font: weight 100px;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+.nav-link{
+    color: #282828;
+    }
+.active{
+    border:  #E20000 solid 1px;
+    border-radius: 20px;
+    }
+.btn{
+    background-color: white;
+    color: #370a6d;
+    border-radius: 15px;
+    }
+.btn:hover{
+    background-color: #370a6d;
+    color: white;
+    }
+#contacto, #inicio{
+    background-image: url("../imagenes/fondo-contacto.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+   
+#proyectos, #sobre-mi{
+    background-image: url("../imagenes/fondo-proyectos.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+#proyectos h2 {
+    color: white;
+    font-size: 16px;
+    }
+#proyectos img {
+        height: 210px;
+        padding: 0px;
+    }
+.QR img{
+        height: 140px;
+       
+    }
+
+.bloque p{
+        height: 90px;  
+    }
+.gradiente{
+    background: rgba(184,37,20,1);
+    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
+    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+    }
+footer, footer a {
+    color: white;
+    font-weight: 300;
+    }   
+ footer .fa-github{
+    color: #E20000;
+        font-size: 30px;
+    padding: 0px;
+    }
+  
+ footer .fa-linkedin-in{ 
+    color: white;
+    background-color: #E20000;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+    }
+.fa-whatsapp{
+    position: fixed;
+    bottom: 0px;
+    right: 80px;
+    color: white;
+    background-color: #370a6d;
+    padding: 10px 0px 30px 0px;
+    font-size: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    width: 60px;
+    }
+.fa-bars{
+    color: #ff4a49;
+    border: 1px solid #ff4a49;
+    padding: 10px;
+    border-radius: 5px;
+    }
+.navbar-toggler:focus {
+    box-shadow: none;
+    background-color: #eee
+    }
+@media(max-width: 750px) {
+#contacto, #inicio{
+    background-image: url("../imagenes/fondo-proyectos.png")
+    }
+#inicio .imput-home p {
+    color:#ff4a49;
+    border: 1px solid #ff4a49;
+}
+footer .fa-github, footer .fa-linkedin-in {
+    color: #E20000;
+    background-color: white;
+    }
+}
+
+#inicio  footer, #inicio footer a, #contactos footer, #contactos footer a {
+    color:white;
+    }
+
+#inicio footer .fa-github, #contacto, footer .fa-github{
+        color: white;;
+        }
+#inicio footer .fa-linkedin-in, #contacto footer .fa-linkedin-in{
+            color: red;
+            background-color: white ;
+    }
+
+
+#proyectos  footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a {
+    color: #E20000;
+    }
+
+#proyectos footer .fa-github, #sobre-mi footer .fa-github{
+    color: #E20000;
+    }
+#proyectos footer .fa-linkedin-in, #sobre-mi footer .fa-linkedin-in  {
+        color: white;
+        background-color: #E20000 ;
+}
+.botonrojo {
+    color: white;
+    background-color: #ff4a49;
+}
+.letra{
+    color:#ff4a49 ;
+}
+.cohete{
+    height:500px;
+}
+#inicio .imput-home p{
+    color: white;
+}
+.fotomia img {
+    height: 280px;
+}
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    padding: 10px;
+    border-radius: 50%;   
+    background-color: #fff;
+}
+.fullstack img{
+    height: 100px;
+}
+.color-gradiente {
+    background: rgba(184,37,20,1);
+    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
+    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+}
+.trabajo img{
+    height: 90px;
+}
+#sobre-mi h3 {
+    font-size: 20px;
+        color: #6a6a6a; 
+}
+#sobre-mi h4 {
+    color: red;
+    font-size: 18px;
+}
+#sobre-mi h5 {
+    font-size: 13px;
+    color: #6a6a6a; 
+}
+.btncv {
+    
+    background-color:red;
+    color: white;
+}
+#idiomas .card {
+    background-color: #ff4a49;
+    border-radius: 20px;
+    padding: 45px 0;
+}
+#sobre-mi .card {
+    height: 190px;
+    color: white;
+}
